@@ -20,3 +20,5 @@ FILE_EDITOR_WINDOW_WIDTH = 1600
 FILE_EDITOR_WINDOW_HEIGHT = 900
 FILE_EDITOR_WINDOW_ICON = pathlib.Path(__file__).parent.parent / "resources" / "WindowIcon.png"
 FILE_EDITOR_WINDOW_ICON = str(FILE_EDITOR_WINDOW_ICON.resolve())
+FILE_EDITOR_STYLE_SHEET = pathlib.Path(__file__).parent.parent / "resources" / "FileEditor.qss"
+FILE_EDITOR_STYLE_SHEET = str(FILE_EDITOR_STYLE_SHEET.resolve())

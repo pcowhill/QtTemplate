@@ -1,0 +1,41 @@
+QTextEdit {
+  background-color: #1E1E1E;
+  color: #D4D4D4;
+  font-family: 'Courier New';
+  font-size: 12pt;
+  padding: 20px;
+  border: none;
+  font-weight: bold;
+}
+
+QMenuBar {
+    background-color: #2D2D2D;
+    color: #D4D4D4;
+    border: none;
+}
+
+QMenuBar::item {
+    background-color: #2D2D2D;
+    color: #D4D4D4;
+}
+
+QMenuBar::item:selected {
+    background-color: #3D3D3D;
+    color: #FFFFFF;
+}
+
+QMenu {
+    background-color: #2D2D2D;
+    color: #D4D4D4;
+    border: 1px solid #3D3D3D;
+}
+
+QMenu::item {
+    background-color: #2D2D2D;
+    color: #D4D4D4;
+}
+
+QMenu::item:selected {
+    background-color: #3D3D3D;
+    color: #FFFFFF;
+}

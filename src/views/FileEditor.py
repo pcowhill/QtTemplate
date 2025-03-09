@@ -8,11 +8,18 @@ class FileEditor(QMainWindow):
   def __init__(self):
     super().__init__()
 
-    self.text_editor = QTextEdit()
-    self.setCentralWidget(self.text_editor)
+    self._setup_text_editor()
 
     self._set_basic_components()
     self._create_ui_elements()
+
+  def _setup_text_editor(self):
+    self.text_editor = QTextEdit()
+    self.setCentralWidget(self.text_editor)
+
+    with open(settings.FILE_EDITOR_STYLE_SHEET, "r") as in_file:
+      style = in_file.read()
+      self.setStyleSheet(style)
 
   def _set_basic_components(self):
     self.setGeometry(
