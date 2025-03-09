@@ -1,0 +1,10 @@
+# VSCode IDE
+.vscode
+
+# Bytecode-compiled
+__pycache__
+
+# Files created from pyinstaller
+build
+dist
+*.spec
