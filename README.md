@@ -1,3 +1,48 @@
+## Key Features of Qt Template
+
+### 1. File Editor
+Compose and edit text files with ease! The **File Editor** allows you to:
+- Open existing text files.
+- Save your work effortlessly to preserve your compositions.
+
+**Demo**:  
+
+https://github.com/user-attachments/assets/4fa1dc9a-c8c9-4cd6-be1c-78cc40675824
+
+
+### 2. Rotate 3D
+Visualize and interact with 3D objects! The **Rotate 3D** feature includes:
+- Smoothly rotating 3D models in OpenGL.
+- Switching between multiple predefined objects.
+- Loading and viewing custom STL files for a personalized experience.
+
+**Demo 1**:  
+
+https://github.com/user-attachments/assets/77d8ff96-aa22-40ae-800f-07075b2e73fd
+
+**Demo 2**:  
+
+https://github.com/user-attachments/assets/2de6f3bd-50d8-4059-8470-222393f56a4f
+
+### 3. Tic Tac Toe
+Challenge yourself or a friend with the classic **Tic Tac Toe** game:
+- Enjoy an interactive user interface.
+- Fun and intuitive gameplay.
+
+**Demo**:  
+
+https://github.com/user-attachments/assets/cbc7e14e-1a9f-4316-ba7a-927a9bea7f53
+
+### 4. Image Draw
+Unleash your creativity with **Image Draw**, a drawing application reminiscent of MS Paint:
+- Sketch and draw freely on a blank canvas.
+- Save your artistic creations as PNG files.
+
+**Demo**:  
+
+https://github.com/user-attachments/assets/02438ea1-f87c-4e15-9a86-a55f3192b2d4
+
+
 ## Directory Structure
 
 The project is organized into the following directories and files:
