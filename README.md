@@ -43,6 +43,12 @@ conda activate <environment_name>
 conda install <package_name>
 ```
 
+Some packages may not be available in the default Conda channels.  conda-forge can be included during the installation step to potentially resolve this:
+
+```sh
+conda install -c conda-forge <package_name>
+```
+
 ### Updating `environment.yaml`
 
 After installing new packages or making changes to the environment, you should update the `environment.yaml` file to reflect these changes.  To export the current state of the environment to `environment.yaml`, use the following command:
