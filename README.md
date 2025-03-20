@@ -75,7 +75,7 @@ This will start the application using the environment and dependencies specified
 To create a standalone executable of the application, you can use PyInstaller.  PyInstaller bundles a Python application and all its dependencies into a single package.  To create an executable, run the following command:
 
 ```sh
-pyinstaller --noconsole --onefile --name QtTemplate ./main.py
+pyinstaller --noconsole --onefile --name QtTemplate --add-data "resources/*;resources" ./main.py
 ```
 
 This command will generate a single executable file named `QtTemplate`. The executable will be located in the `dist` directory. You can distribute this executable to users who do not have Python installed.
