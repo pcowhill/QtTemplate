@@ -1,3 +1,5 @@
+# For Users
+
 ## Key Features of Qt Template
 
 ### 1. File Editor
@@ -42,6 +44,13 @@ Unleash your creativity with **Image Draw**, a drawing application reminiscent o
 
 https://github.com/user-attachments/assets/02438ea1-f87c-4e15-9a86-a55f3192b2d4
 
+
+## Attribution
+
+This project uses the following resource(s) coverd under a **Creative Commons - Attribution** license:
+- resources/PugChain.stl by Thingiverse user [Flowr](https://www.thingiverse.com/thing:2800898) licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) acquired on March 20, 2025.
+
+# For Developers
 
 ## Directory Structure
 
